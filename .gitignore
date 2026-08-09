@@ -1,4 +1,18 @@
+# IDE
+.idea/
+*.iml
 
-.idea/**/*
-
+# Node
 **/node_modules/**
+**/yarn-error.log
+
+# React build output
+**/build/
+
+# Gradle
+.gradle/
+**/.gradle/
+**/out/
+
+# OS
+.DS_Store
